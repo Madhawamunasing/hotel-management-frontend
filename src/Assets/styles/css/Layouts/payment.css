@@ -1,0 +1,26 @@
+.final-payment-btn {
+  width: 100% !important;
+  left: 0px;
+}
+.payment-methods {
+  margin: 0.8rem;
+}
+.payment-gateway-interface div {
+  padding: 0px !important;
+}
+.gpay-interface button {
+  width: 100% !important;
+}
+.google-pay-button-container {
+  width: 100% !important;
+  margin: auto !important;
+  display: block !important;
+}
+
+.payhere-interface {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.payhere-btn {
+  width: 60%;
+}

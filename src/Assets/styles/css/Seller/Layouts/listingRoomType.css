@@ -1,0 +1,26 @@
+.room-type-container button {
+  margin-top: 0.1rem !important;
+  /* margin-bottom: auto !important; */
+}
+.room-type-adding-icon i {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size: x-large;
+  color: blue;
+  cursor: pointer;
+}
+.room-type-adding-icon i:hover {
+  opacity: 0.5;
+}
+.footer-div {
+  position: relative;
+  top: 15rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .mob-room-type {
+    display: block !important;
+    width: 100%;
+  }
+}

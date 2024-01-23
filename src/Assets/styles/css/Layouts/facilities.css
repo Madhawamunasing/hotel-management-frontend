@@ -1,0 +1,7 @@
+.facility-header p {
+  display: inline-block;
+  margin-left: 5px;
+}
+.facility-header p {
+  font-weight: bold;
+}

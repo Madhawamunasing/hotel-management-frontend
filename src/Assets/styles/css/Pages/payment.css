@@ -1,0 +1,46 @@
+.payment-container {
+  position: relative;
+  top: 8rem;
+}
+.total-amount {
+  border-top: 2px solid #dee2e6 !important;
+  border-bottom: 4px double #dee2e6 !important;
+}
+.line-bold {
+  border-bottom: 2px solid #dee2e6 !important;
+}
+.payment-summary .text-right {
+  padding-right: 5% !important;
+  letter-spacing: 1px;
+}
+.voucher-input-box {
+  border-top: 2px solid #dee2e6 !important;
+  border-bottom: 2px solid #dee2e6 !important;
+}
+.voucher-input-box button {
+  width: 100%;
+  height: 3rem;
+}
+
+.voucher-input-box input {
+  width: 100%;
+  height: 3rem;
+}
+.payment-methods {
+  display: flex;
+}
+.payment-methods img {
+  max-width: 3rem;
+  max-height: 2rem;
+  margin-right: 1rem;
+}
+
+.payment-loader{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 50vh;
+    color: aliceblue;
+}

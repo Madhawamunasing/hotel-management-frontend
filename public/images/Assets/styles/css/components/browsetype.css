@@ -1,0 +1,62 @@
+.gallery {
+  background: #eee;
+}
+.gallery-mobile {
+  display: none;
+}
+.gallery-cells {
+  width: 90% !important;
+  height: 250px;
+}
+
+.gallery-full div {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-mobile img {
+  min-height: 15rem;
+  max-height: 15rem;
+}
+.luxary {
+  background-image: url('../../../images/property-types/luxary.jpg');
+}
+
+.kabana {
+  background-image: url('../../../images/property-types/kabana.jpg');
+}
+.villa {
+  background-image: url('../../../images/property-types/villa.jpg');
+}
+.bangalow {
+  background-image: url('../../../images/property-types/bangalow.jpg');
+}
+.guest-houses {
+  background-image: url('../../../images/property-types/guest-houses.jpg');
+}
+.gallery-cells:hover {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 767px) {
+  .gallery-full {
+    display: none;
+  }
+  .gallery-mobile {
+    display: block;
+  }
+}
+/* .card-header {
+  background: rgb(75, 75, 152);
+  background: linear-gradient(
+    186deg,
+    rgba(75, 75, 152, 0.5) 36%,
+    rgba(170, 168, 204, 0.5) 77%,
+    rgba(0, 212, 255, 0.5) 100%,
+    rgba(23, 21, 69, 0.5) 100%
+  );
+  color: aliceblue;
+} */
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(19, 113, 221) !important;
+  scale: 150% !important;
+}

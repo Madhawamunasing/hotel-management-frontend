@@ -1,0 +1,19 @@
+.seller-dashboard{
+    position: relative;  
+    margin-top:5rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.chart-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (max-width: 767px) {
+    .chart-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

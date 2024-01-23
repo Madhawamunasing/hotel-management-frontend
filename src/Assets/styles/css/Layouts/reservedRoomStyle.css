@@ -1,0 +1,33 @@
+/* .booking-details-container{
+    margin-top:
+} */
+.booking-history-container .container-header1 {
+  background-color: #000080;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: antiquewhite;
+}
+
+.booking-history-container .card-header {
+  color: blue;
+}
+
+.booking-history-container th,
+.booking-history-container td {
+  padding: 10px;
+}
+
+.booking-history-container .c {
+  text-align: right;
+}
+.booking-details-container li {
+  font-size: 14px;
+  margin-left: 10px;
+  list-style-type: disc;
+}
+.booking-history-container h5 {
+  font-weight: bolder;
+}

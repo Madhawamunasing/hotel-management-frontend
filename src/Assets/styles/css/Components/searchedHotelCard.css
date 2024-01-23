@@ -1,0 +1,46 @@
+.hotel-cover {
+  min-height: 20rem;
+}
+.book-now p {
+  color: white;
+}
+.book-now p:hover {
+  color: rgb(197, 167, 167);
+}
+.bg-gradient-black-transparent {
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media screen and (max-width: 640px) {
+  .hotel-cover {
+    min-height: 15rem;
+  }
+  .book-now a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.save-hotel i {
+  float: right;
+    margin-right: 0px;
+}
+
+.saved-heart {
+  color: red;
+}
+.notSaved-heart {
+  color: rgb(182, 204, 207);
+}
+.service-icon {
+  position: absolute;
+  bottom: 1px !important;
+}
+.nights {
+  display: inline-block;
+  white-space: nowrap;
+}
+.nights p {
+  white-space: nowrap;
+}

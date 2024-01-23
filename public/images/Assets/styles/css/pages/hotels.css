@@ -1,0 +1,13 @@
+.hotels {
+  position: relative;
+  margin-top: 8rem;
+}
+.hotel-container {
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+  .hotel-searchbox {
+    display: none !important;
+  }
+}

@@ -1,0 +1,40 @@
+.vas-searchbox{
+    float: left;
+    clear: none;
+}
+.vas-searchbox i {
+    font-size: medium;
+    text-align: center
+}
+.vas-searchbox input{
+    width:70%;
+    display: inline !important;
+}
+.vas-searchbox button {
+    width: 20%;
+    display: inline !important;
+}
+@media only screen and (max-width: 992px){
+ .vas-searchbox i{
+     font-size:small !important;
+     text-align: center
+     
+ }
+}
+.next-container{
+    display: flex !important;
+    justify-content: space-between;
+}
+.next-link,.next-button{
+    display:inline-block;
+}
+/* .next-link{
+    margin-right:0px;
+    margin-left: 0px;
+    display:inline-block;
+}
+.next-button{
+    margin-right:0px;
+    margin-left: auto;
+    display:block;
+} */

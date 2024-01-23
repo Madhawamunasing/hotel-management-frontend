@@ -1,0 +1,133 @@
+.room-selection-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.room-selection h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+.room-selection h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.responsive-table .table-header {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 25%;
+}
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+.table-header div {
+  white-space: nowrap !important;
+  text-align: center;
+}
+.verticle-center {
+  position: relative;
+  top: 25%;
+}
+.room-price {
+  background-color: blue;
+  display: inline-block;
+  border-radius: 2px;
+  color: aliceblue;
+  padding: 6px;
+}
+.no-rooms {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.no-rooms select {
+  width: 100%;
+  border: 1px solid rgb(32, 11, 11);
+  border-radius: 2px;
+}
+.reserve-button {
+  background-color: rgb(116, 145, 224);
+  width: 100%;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+.services div {
+  display: inline-block;
+}
+.service-name {
+  margin: 6px;
+  font-family: sans-serif;
+}
+.sleep-container {
+  display: block;
+}
+.fa-solid {
+  color: rgb(43, 22, 22);
+}
+.fa-solid,
+.fas {
+  display: inline;
+}
+.save-today {
+  background-color: rgb(213, 216, 50);
+  display: inline-block;
+  border-radius: 2px;
+  color: rgb(115, 10, 235);
+  padding: 6px;
+  margin-bottom: 5px;
+}
+.or-amount {
+  color: gray;
+  font-size: 85%;
+}
+.reserve-button a {
+  color: #dbc8c8 !important;
+}
+.bed-icon i {
+  color: black;
+  font-size: larger;
+}

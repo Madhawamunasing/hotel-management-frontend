@@ -1,0 +1,13 @@
+.hotel-page-tabs {
+  position: relative;
+  top: 1rem;
+}
+.hotel-tabs {
+  width: 100%;
+}
+.hotel-tabs button {
+  margin-left: 50px;
+}
+.hotel-tabs a:link {
+  margin: auto;
+}

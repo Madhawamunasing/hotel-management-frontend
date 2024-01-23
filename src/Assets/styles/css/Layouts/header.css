@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+.header {
+  background-image: url('/public/images/Backgrounds/bg-img-01.jpg');
+  position: relative;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+.description {
+  position: absolute;
+  top: 50vh;
+}
+.description h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  color: rgb(5, 7, 2);
+  font-size: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+  .description {
+    display: none;
+  }
+}
+
+.header-description {
+  color: rgb(106, 105, 109);
+}

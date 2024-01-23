@@ -1,0 +1,21 @@
+.room-type-selector {
+  width: 80%;
+  margin: auto;
+}
+.room-type-selector label {
+  vertical-align: middle !important;
+}
+
+.form-check {
+  display: inline-block;
+  width: 10rem;
+}
+@media only screen and (max-width: 767px) {
+  .room-type-selector {
+    margin: 10px;
+    width: 100%;
+  }
+}
+/* .room-type-selector p {
+  white-space: nowrap;
+} */

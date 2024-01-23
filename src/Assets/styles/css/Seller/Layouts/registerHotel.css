@@ -1,0 +1,62 @@
+.hotel-register-container {
+  width: 80%;
+  top: 3rem;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hotel-register-container .PhoneInputCountryIcon {
+  width: 3rem;
+  height: 1.3rem;
+}
+
+.hotel-register-container .next-container {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 992px) {
+  .hotel-register-container {
+    top: 3rem;
+    width: 100%;
+  }
+  .hotel-register-container .next-container button {
+    width: 100% !important;
+  }
+}
+.dropzone {
+  height: 12rem;
+  text-align: center;
+  padding: 30px;
+  border: 3px dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected-file-wrapper {
+  text-align: center;
+}
+
+.selected-file {
+  color: #000;
+  font-weight: bold;
+}
+.modal-propertyImage {
+  width: 100%;
+}
+.modal-propertyImage img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-btn-image {
+  position: relative;
+  right: -40%;
+}
+@media only screen and (max-width: 767px) {
+  .upload-container {
+    position: relative;
+    top: 4rem;
+  }
+}

@@ -1,0 +1,39 @@
+.recommonded-hotels img {
+  height: 208px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recommonded-hotels img {
+    min-height: 10rem !important;
+    max-height: 10rem;
+  }
+}
+.recommonded-hotels :hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.saveHotelBtm {
+  justify-content: space-between;
+  display: flex;
+}
+
+.saveHotelBtm .item {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: medium;
+}
+.saveHotelBtm i {
+  color: rgb(145, 59, 59);
+}
+.saveHotelBtm .go-to-hotel {
+  color: blue;
+}
+.savedAt {
+  text-align: right;
+  color: gray;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .card {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,13 @@
+.souvenir-container {
+  top: 6rem;
+}
+.souvenir-container img {
+  min-height: 40rem;
+  max-height: 40rem;
+}
+@media only screen and (max-width: 767px) {
+  .souvenir-container img {
+    min-height: 20rem !important;
+    max-height: 20rem !important;
+  }
+}

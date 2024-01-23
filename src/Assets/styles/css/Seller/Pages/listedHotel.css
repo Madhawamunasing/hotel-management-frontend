@@ -1,0 +1,73 @@
+.hotel-listing-container {
+  width: 80%;
+  position: relative;
+  top: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.corona-gradient-card {
+  background-color: blue;
+  color: white;
+}
+.hotel-listing-container .button {
+  display: inline-block;
+  padding: 0.55rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hotel-listing-container .button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.hotel-listing-container .button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.hotel-listing-container .button:hover {
+  color: #fff;
+}
+
+.hotel-listing-container .button:hover:before {
+  width: 100%;
+}
+
+.hotel-heading {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.hotel-heading i {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
+}
+.hotel-heading h3 {
+  display: inline-block;
+  margin-left: 1rem;
+}
